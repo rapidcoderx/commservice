@@ -1,3 +1,3 @@
 # Communication Service
 
-### Spring boot app send SMS using Twilio API
+### Spring boot app to send SMS using Twilio API
