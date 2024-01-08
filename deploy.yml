@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: commservice
+  labels:
+    app: commservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: commservice
+  template:
+    metadata:
+      labels:
+        app: commservice
+    spec:
+      containers:
+        - name: commservice
+          image: myrepo/commservice:1.0
+          ports:
+            - name: http
+              containerPort: 9080
+          envFrom:
+            - secretRef:
+                name: commservice-env
+      imagePullSecrets:
+        - name: regcred

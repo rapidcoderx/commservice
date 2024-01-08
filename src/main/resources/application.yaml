@@ -1,0 +1,22 @@
+server:
+  port: 9080
+  error:
+    include-stacktrace: never
+  servlet:
+    context-path: /commservice
+
+management:
+  server:
+    port: 9081
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /commservice/manage
+      exposure:
+        include: health,info,metrics
+
+logging:
+  level:
+    root: INFO

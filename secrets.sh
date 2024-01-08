@@ -1,0 +1,1 @@
+kubectl create secret generic commservice-env --from-env-file=.env

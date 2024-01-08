@@ -1,0 +1,39 @@
+# Compiled class file
+*.class
+
+# Directory for compiled files
+/target/
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Environment file
+.env
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.gz
+*.bz2
+*.tgz
+*.rar
+*.7z
+
+# Virtual Machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# IntelliJ artifacts
+out/
+
+# Ignore the IDE specific files
+.idea/
+*.iml
