@@ -17,6 +17,7 @@ public class CommserviceApplication {
     System.setProperty("twilio.auth.token", dotenv.get("TWILIO_AUTH_TOKEN"));
     System.setProperty("twilio.phone.number", dotenv.get("TWILIO_PHONE_NUMBER"));
     System.setProperty("apikey", dotenv.get("API_KEY"));
+    System.setProperty("sendgridkey", dotenv.get("SENDGRID_API_KEY"));
     SpringApplication.run(CommserviceApplication.class, args);
   }
 }

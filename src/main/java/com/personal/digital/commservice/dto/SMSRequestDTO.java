@@ -1,4 +1,4 @@
-package com.personal.digital.commservice.service;
+package com.personal.digital.commservice.dto;
 
 import lombok.Getter;
 import lombok.Setter;
