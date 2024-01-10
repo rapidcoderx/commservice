@@ -37,3 +37,8 @@ out/
 # Ignore the IDE specific files
 .idea/
 *.iml
+
+/keystore.p12
+/internal.txt
+/truststore.jks
+/keystore.jks
